@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply w-[1200px] mx-auto bg-[#002b40] text-[#FFDEA0] font-normal;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@media (max-width: 768px) {
+    body {
+        @apply w-[700px];
+    }
+    .tab {
+        width: 100%; /* Sekmeleri tam genişlikte yapın */
+      }
+      .react-tabs__tab-panel > div {
+        margin-top: 40px;
+      }
+      .react-tabs__tab-panel > div > div {
+        width: calc(100% - 100px);
+        padding: 50px;
+      }
+  }
