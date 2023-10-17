@@ -67,7 +67,7 @@ export default function Menu() {
                   <div className="w-[20%]">
                     <img
                       className="rounded-full"
-                      src={`http://localhost:5173/image/${item.image}`}
+                      src={`image/${item.image}`}
                       alt={item.title}
                     />
                   </div>
@@ -100,7 +100,7 @@ export default function Menu() {
                   <div className="w-[20%]">
                     <img
                       className="rounded-full"
-                      src={`http://localhost:5173/image/${item.image}`}
+                      src={`image/${item.image}`}
                       alt={item.title}
                     />
                   </div>
@@ -133,7 +133,7 @@ export default function Menu() {
                   <div className="w-[20%]">
                     <img
                       className="rounded-full"
-                      src={`http://localhost:5173/image/${item.image}`}
+                      src={`image/${item.image}`}
                       alt={item.title}
                     />
                   </div>
@@ -166,7 +166,7 @@ export default function Menu() {
                   <div className="w-[20%]">
                     <img
                       className="rounded-full"
-                      src={`http://localhost:5173/image/${item.image}`}
+                      src={`image/${item.image}`}
                       alt={item.title}
                     />
                   </div>
